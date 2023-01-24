@@ -15,13 +15,28 @@ body {
  gap: 2%;
 }
 
-/*
-.grid-text {
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- color:#433d3d;
- line-height: 150%;
+.nav-box{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
-*/
+
+.left-panel{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+
+.right-panel{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+}
+
+
+
+
 
 
 h1 {
@@ -44,48 +59,6 @@ fieldset {
 }
 
 
-/*ul.ul-left-grid {
-  list-style-type: square;
-  overflow: hidden;
-  background-color: white;
-  color: #433d3d;
-}
-*/
-
-/*li.li-left-grid {
-  float: none;
-}
-
-li.li-left-grid a {
-  display: block;
-  font-size: small;
-  text-align: left;
-  padding: 10px 10px;
-  text-decoration: none;
-}
-*/
-
-
-
-
-
-/*Move the nav bar elements onto a different sheet */
-
-/*.upper-border {
-  color:#8b239a;
-  background-color: white;
-  font-weight: 300;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border: 0px solid #8b239a;
-  margin: 1%;
-}
-*/
-
-
-
 /* Default styling */
 
 tbody td {
@@ -94,14 +67,19 @@ tbody td {
 
 ul {
   list-style-type: square;
-  margin: 0;
+  margin: 2%;
   padding: 0;
   overflow: hidden;
 }
 
 li {
   float: right;
+  line-height: 150%;
 }  
+
+li a {
+  color: #433d3d;
+} 
 
 li a:hover {
   font-weight: bolder;
