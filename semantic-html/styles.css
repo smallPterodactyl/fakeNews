@@ -1,4 +1,10 @@
 
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#433d3d;
+  line-height: 150%;
+}
+
 /*Style elements for top of page */
 .grid-wrap {
  display: grid;
@@ -9,56 +15,55 @@
  gap: 2%;
 }
 
+/*
 .grid-text {
  font-family: Verdana, Geneva, Tahoma, sans-serif;
  color:#433d3d;
  line-height: 150%;
 }
+*/
 
 
 h1 {
   font: size 200%;
   font-weight: lighter;
   color:#8b239a;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+  
 h2 {
   font-size:130%;
   color:#8b239a;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h3 {
   color:#433d3d;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 fieldset {
   font-size: smaller;
-  color: #433d3d;
   border: 0;
 }
 
 
-ul.ul-left-grid {
+/*ul.ul-left-grid {
   list-style-type: square;
   overflow: hidden;
   background-color: white;
   color: #433d3d;
 }
+*/
 
-li.li-left-grid {
+/*li.li-left-grid {
   float: none;
 }
 
 li.li-left-grid a {
   display: block;
-  color: #433d3d;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
   text-align: left;
   padding: 10px 10px;
   text-decoration: none;
 }
+*/
 
 
 
@@ -66,7 +71,7 @@ li.li-left-grid a {
 
 /*Move the nav bar elements onto a different sheet */
 
-.upper-border {
+/*.upper-border {
   color:#8b239a;
   background-color: white;
   font-weight: 300;
@@ -77,7 +82,57 @@ li.li-left-grid a {
   border: 0px solid #8b239a;
   margin: 1%;
 }
+*/
 
+
+
+/* Default styling */
+
+tbody td {
+  text-align: left;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}  
+
+li a:hover {
+  font-weight: bolder;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+
+
+
+/* Nav bar styling */
+
+ul.nav-style {
+  list-style-type: none;
+  background-color: #8b239a;
+  float: right;
+  text-align: center;
+  padding: 8px 40px;
+  color: white;
+}
+
+li.nav-highlight-style a {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 40px;
+  color: white;
+}
 
 .big-logo-text {
   font-size: 210%;
@@ -87,36 +142,11 @@ li.li-left-grid a {
   padding-bottom: 1%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #8b239a;
-}
 
-li {
-  float: right;
-}  
 
-li a {
-  display: block;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  padding: 8px 40px;
-  text-decoration: none;
-}
 
-/* Make the link bolder on hover */
-li a:hover {
-  font-weight: bolder;
-}
 
-tbody td {
-  text-align: left;
-}
 
-tfoot th {
-  text-align: right;
-}
+
+
+
